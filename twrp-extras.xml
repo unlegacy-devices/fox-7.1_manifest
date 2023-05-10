@@ -3,10 +3,12 @@
     <remote name="TeamWin"
             fetch="https://github.com/TeamWin"
             review="https://gerrit.twrp.me" />
+    <remote name="SHRP"
+            fetch="https://github.com/SHRP" />
 
 <!-- TWRP lives in TeamWin android-9.0 (not AOSP!) -->
     <remove-project name="platform/bootable/recovery"/>
-    <project path="bootable/recovery" name="android_bootable_recovery" remote="TeamWin" revision="android-9.0"/>
+    <project path="bootable/recovery" name="android_bootable_recovery" remote="SHRP" revision="android-11.0"/>
 
 <!-- Use TeamWin fork for repacker support -->
   <remove-project name="android_build" />
