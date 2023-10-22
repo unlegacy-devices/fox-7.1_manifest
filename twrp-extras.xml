@@ -8,7 +8,7 @@
             fetch="https://github.com/LineageOS"
             review="https://review.lineageos.org" />
 
-    <remote name="SkyHawk"
+    <remote name="SHRP"
             fetch="https://github.com/SHRP" />
                                             
 <!-- SHRP lives in SkyHawk repo, not OmniROM -->
