@@ -17,7 +17,7 @@
 <!-- OrangeFox lives in fox fox-9.0 repo, not OmniROM -->
     <remove-project name="android_bootable_recovery" />
     <project path="bootable/recovery" name="bootable/Recovery" remote="fox" revision="fox_9.0" />
-    <project path="vendor/recovery" name="vendor/recovery" remote="fox" revision="master" />
+    <project path="vendor/recovery" name="vendor/recovery" remote="fox" revision="legacy" />
     <project path="bootable/recovery/gui/theme" name="misc/Theme" remote="fox" revision="master" />
 
 <!-- Use build repo from TeamWin -->
